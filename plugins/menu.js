@@ -22,7 +22,9 @@ owner: '',
 convert: '',
 tools: '',
 search: '',
+movie: '',
 ai: '',
+news: '',
 fun: '',
 voice: '',
 other: ''
@@ -62,10 +64,7 @@ let madeMenu = `👋 *Hello ${pushname} *
 ╭──────────●●►
  🎬 *𝐌𝐎𝐕𝐈𝐄 𝐌𝐞𝐧𝐮*
   ───────
- .movie
- .cinesubz
- .ginisisila
- .sinhalasub
+  ${menu.movie}
 ╰───────────●●►
 ╭──────────●●►
  🎉 *𝐅𝐮𝐧 𝐌𝐞𝐧𝐮*
@@ -100,12 +99,7 @@ let madeMenu = `👋 *Hello ${pushname} *
 ╭──────────●●►
  📰 *𝐍𝐄𝐖𝐒 𝐌𝐞𝐧𝐮*
   ───────
- .news (English)
- .derananews
- .sirasanews
- .hirunews
- .startnews (auto news on)
- .stopnews (auto news off)
+ ${menu.news}
 ╰───────────●●►
 ╭──────────●●►
  🛠️ *𝐓𝐨𝐨𝐥𝐬 𝐌𝐞𝐧𝐮*
